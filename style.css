@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+} 
+.flex{
+    display: flex;
+}
+.gap-50{
+    gap: 50px;
+}
+.gap-20{
+    gap: 20px;
+}
+h1{
+    color: rgb(231, 229, 229);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+button{
+    border: none;
+    text-decoration: none;
+}
+.btn-yes, .btn-no{
+    width: 40%;
+    height: 50px; 
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-yes{
+    border: 1px solid blueviolet;
+    background-color: transparent;
+}
+.btn-no{
+    background-color: blueviolet;
+}
+.btn-no:hover, .btn-yes:hover{
+    background-color: rgb(159, 107, 207);
+}
+.my-response, .my-rules{
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+h3{
+    color: rgb(131, 88, 172);
+    font-size: 20px;
+    text-decoration: underline;
+}
+.direction-col{
+    flex-direction: column;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    list-style: circle;
+}
+li{
+    text-transform: uppercase;
+   color: rgb(155, 153, 153);
+   font-size: 14px;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(177, 134, 218);
+}
+a:hover{
+    text-decoration: underline;
+}
+.btn-agree, .btn-not-agree{
+    display: flex;
+    font-size: 8px;
+    background-color: rgb(155, 153, 153);
+    padding: 5px;
+    color: rgb(32, 32, 32);
+    border-radius: 3px;
+
+}
+.btn-agree:hover, .btn-not-agree:hover{
+    background-color: rgb(187, 185, 185);
+}
+.friends{
+    display: none;
+}
+.opps{
+    display: none;
+}
