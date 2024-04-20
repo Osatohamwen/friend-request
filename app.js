@@ -1,6 +1,6 @@
 let alertName = prompt("Please type in your name");
 
-document.getElementById('names').innerHTML = (`${alertName}!!! Do you want to be my friend?` );
+document.getElementById('names').innerHTML = (`${alertName}!!! Do you want to be friends with me?` );
 
 let myRules = document.getElementById("my-rules")
 let myResponse = document.getElementById("my-response")
