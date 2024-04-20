@@ -11,6 +11,12 @@ main{
     background-color: black;
     color: white;
 } 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
 .flex{
     display: flex;
 }
@@ -34,7 +40,7 @@ button{
     text-decoration: none;
 }
 .btn-yes, .btn-no{
-    width: 40%;
+    width: 50%;
     height: 50px; 
     padding: 15px;
     color: white;
